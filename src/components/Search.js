@@ -30,7 +30,8 @@ const FormStyle = styled.form`
   margin: 0rem 2rem;
 
   div {
-    position: absolute;
+    display: flex;
+    justify-content: center;
   }
 
   input {
@@ -42,13 +43,13 @@ const FormStyle = styled.form`
     border: none;
     border-radius: 1rem;
     outline: none;
-    width: 100%;
+    width: 70%;
   }
 
   svg {
     position: absolute;
-    top: 50%;
-    left: 0%;
+    top: 20%;
+    left: 23.5%;
     transform: translate(100%, -50%);
     color: white;
   }
